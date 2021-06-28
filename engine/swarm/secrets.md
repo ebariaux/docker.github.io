@@ -927,7 +927,7 @@ use it, then remove the old secret.
     ```
 
 
-7.  If you want to try the running all of these examples again or just want to
+7.  If you want to try running all of these examples again or just want to
     clean up after running through them, use these commands to remove the
     WordPress service, the MySQL container, the `mydata` and `wpdata` volumes,
     and the Docker secrets.
