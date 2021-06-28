@@ -825,7 +825,7 @@ after 10% of the tasks being updated fail, the update is paused.
 An individual task update is considered to have failed if the task doesn't
 start up, or if it stops running within the monitoring period specified with
 the `--update-monitor` flag. The default value for `--update-monitor` is 30
-seconds, which means that a task failing in the first 30 seconds after its
+seconds, which means that a task failing in the first 30 seconds after it's
 started counts towards the service update failure threshold, and a failure
 after that is not counted.
 
